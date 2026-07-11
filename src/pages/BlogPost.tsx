@@ -196,7 +196,7 @@ export const BlogPost: React.FC = () => {
         <div className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-100 shadow-sm grid grid-cols-1 sm:grid-cols-4 gap-6 items-center mb-16">
           <div className="sm:col-span-1 flex justify-center">
             <img 
-              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150" 
+              src="/director.png" 
               alt="Author Seema Swami" 
               className="h-20 w-20 rounded-full object-cover border border-slate-200"
             />

@@ -92,7 +92,7 @@ export const AboutUs: React.FC = () => {
           <div className="lg:col-span-4 flex flex-col items-center">
             <div className="relative p-1.5 bg-gradient-to-br from-primary to-accent rounded-2xl shadow-md">
               <img 
-                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=400" 
+                src="/director.png" 
                 alt="Director Seema Swami" 
                 className="h-[280px] w-[240px] object-cover rounded-xl bg-white"
               />

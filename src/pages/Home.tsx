@@ -93,11 +93,19 @@ export const Home: React.FC = () => {
                 </Link>
                 
                 <a
-                  href="tel:+919999999999"
-                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-xl border-2 border-primary text-primary bg-white px-7 py-3.5 text-sm font-extrabold hover:bg-slate-50 transition-all"
+                  href="tel:+919217269369"
+                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-xl border-2 border-primary text-primary bg-white px-5 py-3.5 text-xs font-extrabold hover:bg-slate-50 transition-all"
                 >
-                  <Phone size={16} />
-                  Call Counselor
+                  <Phone size={14} />
+                  Call 9217269369
+                </a>
+                
+                <a
+                  href="tel:+918860017434"
+                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-xl border-2 border-primary text-primary bg-white px-5 py-3.5 text-xs font-extrabold hover:bg-slate-50 transition-all"
+                >
+                  <Phone size={14} />
+                  Call 8860017434
                 </a>
               </div>
 

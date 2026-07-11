@@ -94,15 +94,20 @@ export const ContactUs: React.FC = () => {
                   </div>
                 </li>
 
-                <li className="flex gap-3 items-center">
-                  <div className="h-9 w-9 rounded-xl bg-primary/5 text-primary flex items-center justify-center flex-shrink-0">
+                <li className="flex gap-3 items-start">
+                  <div className="h-9 w-9 rounded-xl bg-primary/5 text-primary flex items-center justify-center flex-shrink-0 mt-0.5">
                     <Phone size={18} className="text-primary-light" />
                   </div>
                   <div>
                     <span className="text-[10px] font-bold text-slate-400 block uppercase">Call Office</span>
-                    <a href="tel:+919999999999" className="text-xs font-bold text-slate-700 hover:text-primary mt-1 block">
-                      +91 99999 99999
-                    </a>
+                    <div className="flex flex-col gap-1 mt-1">
+                      <a href="tel:+919217269369" className="text-xs font-bold text-slate-700 hover:text-primary block">
+                        +91 92172 69369
+                      </a>
+                      <a href="tel:+918860017434" className="text-xs font-bold text-slate-700 hover:text-primary block">
+                        +91 88600 17434
+                      </a>
+                    </div>
                   </div>
                 </li>
 
@@ -142,7 +147,7 @@ export const ContactUs: React.FC = () => {
                 Connect with our administrative desk immediately via chat. Tap the button to load a pre-filled enquiry template on your phone.
               </p>
               <a 
-                href="https://wa.me/919999999999?text=Hello%20Ratna%20Coaching%20Centre,%20I%20have%20an%20enquiry%20regarding%20subject%20batches."
+                href="https://wa.me/919217269369?text=Hello%20Ratna%20Coaching%20Centre,%20I%20have%20an%20enquiry%20regarding%20subject%20batches."
                 target="_blank"
                 rel="noreferrer"
                 className="w-full py-3 bg-emerald-500 hover:bg-emerald-600 text-white font-bold rounded-xl text-center text-xs shadow transition-colors flex items-center justify-center gap-1.5"

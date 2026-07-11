@@ -49,7 +49,7 @@ export const Footer: React.FC = () => {
                 </svg>
               </a>
               <a 
-                href="https://wa.me/919999999999?text=Hello%20Ratna%20Coaching%20Centre,%20I%20want%20to%20enquire%20about%20admissions." 
+                href="https://wa.me/919217269369?text=Hello%20Ratna%20Coaching%20Centre,%20I%20want%20to%20enquire%20about%20admissions." 
                 target="_blank" 
                 rel="noreferrer" 
                 className="h-9 w-9 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:bg-accent hover:text-primary transition-all text-slate-300"
@@ -108,9 +108,12 @@ export const Footer: React.FC = () => {
                   2115 Ground Floor, Sector 9, Near Nandan Park, Ballabgarh, Faridabad (121004)
                 </span>
               </li>
-              <li className="flex gap-2.5 items-center">
-                <Phone className="text-accent flex-shrink-0" size={18} />
-                <a href="tel:+919999999999" className="hover:text-accent transition-colors">+91 99999 99999</a>
+              <li className="flex gap-2.5 items-start">
+                <Phone className="text-accent flex-shrink-0 mt-0.5" size={18} />
+                <div className="flex flex-col gap-1.5">
+                  <a href="tel:+919217269369" className="hover:text-accent transition-colors">+91 92172 69369</a>
+                  <a href="tel:+918860017434" className="hover:text-accent transition-colors">+91 88600 17434</a>
+                </div>
               </li>
               <li className="flex gap-2.5 items-center">
                 <Mail className="text-accent flex-shrink-0" size={18} />

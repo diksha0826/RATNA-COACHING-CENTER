@@ -93,7 +93,7 @@ export const Admissions: React.FC = () => {
     const text = encodeURIComponent(
       `Hello, I have submitted an online admission enquiry for my child ${studentName} for Class ${classLevel} at Ratna Coaching Centre. Please confirm the batch availability.`
     );
-    return `https://wa.me/919999999999?text=${text}`;
+    return `https://wa.me/919217269369?text=${text}`;
   };
 
   return (

@@ -21,7 +21,7 @@ export const RouterProvider: React.FC<{ children: React.ReactNode }> = ({ childr
 
   const navigate = (to: string) => {
     window.history.pushState({}, '', to);
-    setPath(to);
+    setPath(window.location.pathname);
     window.scrollTo(0, 0);
   };
 

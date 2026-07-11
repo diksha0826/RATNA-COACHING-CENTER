@@ -2,18 +2,19 @@ import React from 'react';
 import { Phone } from 'lucide-react';
 
 export const FloatingActions: React.FC = () => {
-  const phoneNumber = '+919999999999';
+  const whatsappNumber = '+919217269369';
+  const callNumber = '+918860017434';
   const whatsappMessage = encodeURIComponent(
     'Hello Ratna Coaching Centre, I would like to enquire about admissions for the upcoming batch.'
   );
-  const whatsappUrl = `https://wa.me/${phoneNumber.replace('+', '')}?text=${whatsappMessage}`;
+  const whatsappUrl = `https://wa.me/${whatsappNumber.replace('+', '')}?text=${whatsappMessage}`;
 
   return (
     <div className="fixed bottom-6 right-6 z-40 flex flex-col gap-3.5 sm:bottom-8 sm:right-8">
       
       {/* Click to Call Floating Button */}
       <a
-        href={`tel:${phoneNumber}`}
+        href={`tel:${callNumber}`}
         className="flex h-12 w-12 items-center justify-center rounded-full bg-accent text-primary-dark shadow-lg shadow-accent/20 hover:scale-110 active:scale-95 transition-all hover:brightness-105 group relative"
         title="Call Center Office"
       >
